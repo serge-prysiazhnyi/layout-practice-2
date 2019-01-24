@@ -1,0 +1,15 @@
+.arrow {
+    display: none;
+    width: 128px;
+    height: 32px;
+    background-image: url(../img/Arrow.png);
+    position: absolute;
+    top: 40px;
+    left: 210px;
+    z-index: 999;
+}
+
+.arrow-rotated {
+    transform: translateY(60px) rotateX(180deg);
+}
+

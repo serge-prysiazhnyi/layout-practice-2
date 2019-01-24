@@ -1,0 +1,38 @@
+body {
+    font-family: $font-primary;
+    font-size: $font-size-base;
+}
+h1, h2 {
+    font-family: $font-header-primary;
+}
+
+h4, h5 {
+    font-family: $font-secondary;
+}
+
+.text-color-secondary {
+    color: $text-color-secondary;
+}
+
+.color-primary {
+   color: $primary;
+}
+
+.color-orange {
+    color: $orange;
+}
+
+.color-secondary {
+    color: $secondary;
+}
+
+.subheading {
+    font-size: $font-size-md;
+}
+
+.centered-axis-xy {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+}

@@ -1,0 +1,47 @@
+.pricing {
+    font-family: $font-secondary;
+    color: #818b95;
+    background-color: #e7edf3;
+}
+
+.pricing li {
+    font-size: 13.5rem / 16;
+}
+
+.pricing .btn {
+    color: #ffffff;
+    font-size: 14rem / 16;
+}
+
+.pricing p {
+    font-size: $p-font-size;
+}
+
+.pricing .price-value {
+    font-size: $font-size-xxxl;
+}
+
+.pricing-card-header {
+    font-size: $font-size-lg;
+}
+
+.pricing-card {
+    background-color: #ffffff;
+}
+
+.pricing-card-active {
+    background-color: $secondary;
+    color: #ffffff;
+}
+
+.pricing-card-active li {
+    color:#c2e1ff;
+}
+
+.pricing-card .price-value {
+    color: $primary;
+}
+
+.pricing-card-active .price-value {
+    color: #ffffff;
+}
